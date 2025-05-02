@@ -54,4 +54,4 @@ elif in_mod == "azul":
   set_mod = "azul como el mar azul"
 elif in_mod == "negro":
   set_mod = "eso es un poquito emo de tu parte pero esta bien"
-st.write("Lo que pienso de tu elección:,", set_mod)
+st.write("Lo que pienso de tu elección:", set_mod)

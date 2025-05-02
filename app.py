@@ -28,14 +28,14 @@ with col1:
     st.write("Eres un diseñador ó programador que necesita más tiempo para sus proyectos ¿cierto?")
 
 with col2:
-  st.subheader("segunda fokin columna")
-  modo = st.radio("aún más cool que antes", ('opción 1', 'opción 2', 'opción 3'))
-  if modo == 'opción 1':
-    st.write('oprimiste la opción 1 mera loca')
-  if modo == 'opción 2':
-    st.write('oprimiste la opción 2 mera loca')
-  if modo == 'opción 3':
-    st.write('oprimiste la opción 3 mera loca')
+  st.subheader("¡Ahora otra pregunta!")
+  modo = st.radio("Si tuvieras un último deseo a un genio de la lámpara ¿Qué le pedirías?", ('Paz Mundial', 'Dinero Ilimitado', 'Liberar al Genio'))
+  if modo == 'Paz Mundial':
+    st.write('Que respuesta tan de reina de belleza de tu parte')
+  if modo == 'Dinero Ilimitado':
+    st.write('Pudiste haber sido más creativo')
+  if modo == 'Liberar al Genio':
+    st.write('¡Esa es la única respuesta correcta!')
 
 st.subheader("así se usa un botón")
 if st.button("oprima o miedo"):

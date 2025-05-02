@@ -13,16 +13,19 @@ st.image(image, caption='Se me abrió el tercer ojo haciendo esto')
 texto = st.text_input('Hagamos este espacio productivo', 'Cuéntame 3 cosas que te hagan muy feliz')
 st.write('las 3 cosas que me hacen feliz son:', texto)
 
-st.subheader("dos fokin columnas wow")
+st.subheader("¡Ya tenemos 2 columnas!")
 
 col1, col2 = st.columns(2)
 
 with col1:
-  st.subheader("primera fokin columna")
-  st.write("vea esooooo")
-  resp = st.checkbox('sioque')
+  st.subheader("Pregunta:")
+  st.write("¿Si tuvieras que escoger entre no tener que dormir o comer nunca más en tu vida (no lo necesitas) ¿Qué escogerías?")
+  resp = st.checkbox('Comer')
   if resp: 
-    st.write("SIZAAAA")
+    st.write("¿Estás bien?")
+     resp = st.checkbox('Dormir')
+  if resp: 
+    st.write("Eres un diseñador/programador que necesita más tiempo para sus proyectos ¿cierto?")
 
 with col2:
   st.subheader("segunda fokin columna")

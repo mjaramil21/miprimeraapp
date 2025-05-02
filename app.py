@@ -21,10 +21,10 @@ with col1:
   st.subheader("Pregunta:")
   st.write("¿Si tuvieras que escoger entre no tener que dormir o comer nunca más en tu vida (no lo necesitas) ¿Qué escogerías?")
   resp = st.checkbox('Comer')
+  resp_2 = st.checkbox('Dormir')
   if resp: 
     st.write("¿Estás bien?")
-     resp = st.checkbox('Dormir')
-  if resp: 
+  if resp_2: 
     st.write("Eres un diseñador ó programador que necesita más tiempo para sus proyectos ¿cierto?")
 
 with col2:

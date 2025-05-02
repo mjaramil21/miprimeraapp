@@ -5,7 +5,7 @@ st.title("¡Bienvenidxs a mi primera app!")
 
 st.header("Mi Hola Mundo de Streamlit")
 st. write("vamos a ver que mas podemos hacer...")
-image = Image.open('IMAGEN APP.JPG')
+image = Image.open('IMAGEN APP.jpg')
 
 st.image(image, caption='Se me abrió el tercer ojo haciendo esto')
 

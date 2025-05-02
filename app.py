@@ -10,8 +10,8 @@ image = Image.open('IMAGEN APP.jpg')
 st.image(image, caption='Se me abrió el tercer ojo haciendo esto')
 
 
-texto = st.text_input('Cuéntame 3 cosas que te hagan muy feliz')
-st.write('Hagamos este espacio productivo:', texto)
+texto = st.text_input('Hagamos este espacio productivo', 'Cuéntame 3 cosas que te hagan muy feliz')
+st.write('las 3 cosas que me hacen feliz son:', texto)
 
 st.subheader("dos fokin columnas wow")
 

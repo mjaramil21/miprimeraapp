@@ -25,7 +25,7 @@ with col1:
     st.write("¿Estás bien?")
      resp = st.checkbox('Dormir')
   if resp: 
-    st.write("Eres un diseñador/programador que necesita más tiempo para sus proyectos ¿cierto?")
+    st.write("Eres un diseñador ó programador que necesita más tiempo para sus proyectos ¿cierto?")
 
 with col2:
   st.subheader("segunda fokin columna")

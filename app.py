@@ -37,21 +37,21 @@ with col2:
   if modo == 'Liberar al Genio':
     st.write('¡Esa es la única respuesta correcta!')
 
-st.subheader("así se usa un botón")
-if st.button("oprima o miedo"):
-  st.write("YAYYYY")
+st.subheader("Oprime el botón para ser perfecto")
+if st.button("Perfección a un botón de distancia"):
+  st.write("Si no cambió nada es por que ya eres perfecto tal y como eres :) ")
 else:
-  st.write("MERA LOCAAAAAAAAAAAA")
+  st.write("¿Lo vas a presionar?")
 
-st.subheader("papapapapapap")
+st.subheader("Bueno ya no seamos tan filosóficos e inspiradores")
 in_mod = st.selectbox(
-  "pero eliga una", 
-  ("princesa número uno", "princesa número dos", "princesa número tres"),
+  "Dime tu color favorito", 
+  ("Rojo", "azul", "negro"),
 )
-if in_mod == "princesa número uno":
-  set_mod = "aplaudale aaa cenicientaaaaa"
-elif in_mod == "princesa número dos":
-  set_mod = "vamos denle un aplauso aaaa blancaaaanieveeeeees"
-elif in_mod == "princesa número tres":
-  set_mod = "será suya para rescatar la princesa fiooooonaaaaaa"
-st.write("lord farquaad,", set_mod)
+if in_mod == "Rojo":
+  set_mod = "También es mi color favorito"
+elif in_mod == "azul":
+  set_mod = "azul como el mar azul"
+elif in_mod == "negro":
+  set_mod = "eso es un poquito emo de tu parte pero esta bien"
+st.write("Lo que pienso de tu elección:,", set_mod)

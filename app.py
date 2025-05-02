@@ -1,17 +1,17 @@
 import streamlit as st
 from PIL import Image
 
-st.title("Hola Mundo!!")
+st.title("¡Bienvenidxs a mi primera app!")
 
-st.header("Wow guys puse texto en una página web")
-st. write("ahora que")
-image = Image.open('IMG_1936.jpg')
+st.header("Mi Hola Mundo de Streamlit")
+st. write("vamos a ver que mas podemos hacer...")
+image = Image.open('IMAGEN APP.JPG')
 
-st.image(image, caption='miren a mi gata')
+st.image(image, caption='Se me abrió el tercer ojo haciendo esto')
 
 
-texto = st.text_input('bueno pero', 'y se sabe el chiste del bus')
-st.write('pero', texto)
+texto = st.text_input('Cuéntame 3 cosas que te hagan muy feliz')
+st.write('Hagamos este espacio productivo:', texto)
 
 st.subheader("dos fokin columnas wow")
 
